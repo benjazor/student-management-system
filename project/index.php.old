@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Suivi d'eleve en TPE</title>
+</head>
+
+<body>
+
+
+<link href="menu/style.css" rel="stylesheet" type="text/css">
+<?php include 'menu/index.php';?>
+
+
+<link href="affichage/style.css" rel="stylesheet"> <!-- On charge le fichier de style style.css -->
+<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"><!-- Font de text issue font.google.com -->
+<?php include 'affichage/filter.php';?>
+<?php include 'affichage/donnees.php';?>
+
+
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+/* CSS Document */
+html{
+    font-family: 'Bitter', serif;
+}
+
+
+
+
+#affichage {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+#affichage td, #affichage th {
+    padding: 8px;
+}
+
+#affichage td{
+	border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#affichage th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3498db;
+    color: white;
+}
+
+
+
+
+#selection{
+	width: 50%;
+	border: 1px solid #3498db;
+    border-collapse: collapse;
+}
+
+#selection th{
+	background-color: #3498db;
+	color: white;
+}
+
+#selection td{
+	padding: 4px;
+	color: black;
+	align-content: center;
+}
+
+
+
+
+#button_selection {
+	border: none;
+    color: white;
+    padding: 8px 8px;
+    font-size: 16px;
+	border-radius: 10px;
+    font-family: 'Bitter', serif;
+    background-color: inherit;
+    transition-duration: 0.4s;
+	font-weight: bold;
+	display: block;
+	margin: auto;
+}
+
+#button_selection:hover {
+    background-color: #2ecc71;
+	font-weight: bolder;
+}
+
+
+
+select.selecteur{
+	display: block;
+	margin: auto;
+	width: 100%;
+	
+}
+
+
+tr.present {
+	background-color: #2ecc71;
+}
+
+tr.ancien {
+	background-color: #95a5a6;
+}
+
+tr.deplacement {
+	background-color: #f1c40f;
+}
+tr.absent {
+	background-color: #e74c3c;
+}
+
+
